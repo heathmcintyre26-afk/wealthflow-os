@@ -1,0 +1,1 @@
+export default { async fetch(request, env) { const url = new URL(request.url); if (url.pathname.startsWith("/admin")) { return env.ADMIN_WORKER.fetch(request); } return new Response("Universal OS Shell Active"); } };

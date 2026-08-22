@@ -1,0 +1,11 @@
+name = "universal-os"
+main = "index.js"
+compatibility_date = "2026-08-20"
+
+[[routes]]
+pattern = "thewealthflow.xyz"
+custom_domain = true
+
+[[services]]
+binding = "ADMIN_WORKER"
+service = "cosmic-admin"
